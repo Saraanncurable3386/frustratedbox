@@ -6,6 +6,10 @@ Uses only LOCAL AI models for reasoning, speech understanding, speech production
 
 We can give it any character by a simple prompt stored in a txt file, but by design for this (2026) Halloween it is going to be a parcel misdelivered by a courier (it was addressed to a villa in the Bahamas, it got to Ireland), now sitting frustrated by the front door: hears people talking, reacts with responses and glowing bulb eyes, and holds a spoken conversation in a frustrated-but-playful character, powered by a local STT → LLM → TTS pipeline. No cloud services, no information exchanged with the Internet.
 
+See the bot in action in this YT video :)
+
+[![Link to YT video about the talking frustrated box](justmarried.jpg)](https://youtu.be/7HzCIBPl4T8)
+
 ## Architecture
 
 Two machines over the home LAN:
