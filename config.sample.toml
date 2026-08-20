@@ -1,0 +1,29 @@
+# FrustratedBox configuration — TEMPLATE.
+# Copy this file to config.toml and edit it for your setup:
+#     cp config.sample.toml config.toml
+# config.toml is gitignored, so your LAN details stay private.
+
+[backend]
+# The GPU machine serving the models (OpenAI-compatible endpoints).
+llm_base_url = "http://192.168.1.100:8091/v1"   # llama-server
+speaches_url = "http://192.168.1.100:8000/v1"   # speaches (STT + TTS)
+
+[models]
+llm = "Dolphin3.0-Llama3.1-8B-Q5_K_M.gguf"
+stt = "deepdml/faster-whisper-large-v3-turbo-ct2"
+tts = "speaches-ai/Kokoro-82M-v1.0-ONNX-fp16"
+tts_voice = "bm_george"    # British male; try other bm_/am_ Kokoro voices
+
+[audio]
+input_device_index = 0          # PyAudio index of the mic (ReSpeaker 4 Mic Array)
+interrupt_rms_threshold = 2000  # barge-in gate, 16-bit PCM units (0–32767); raise → harder to barge in, less self-interruption
+
+[vad]
+# Passed straight to Pipecat's VADParams.
+confidence = 0.5
+start_secs = 0.1
+stop_secs = 0.2     # main responsiveness dial: lower = snappier, higher = more patient with pauses
+min_volume = 0.0
+
+[gpio]
+eye_relay_pin = 17  # BCM numbering — relay signal line for the eye bulbs

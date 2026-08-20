@@ -1,0 +1,23 @@
+# Python virtual environment (rebuild per README.md §6)
+venv/
+__pycache__/
+*.pyc
+*.swp
+
+# lgpio runtime notification pipe
+.lgd-nfy0
+
+# local audio test scratch files
+*.wav
+
+# Claude Code local session settings
+.claude/settings.local.json*
+
+# Private local config (copy config.sample.toml → config.toml and edit)
+config.toml
+
+# Internal stuff
+INTERNAL*
+
+index.html
+stylesheet.css
