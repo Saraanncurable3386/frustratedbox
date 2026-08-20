@@ -1,12 +1,12 @@
-# FrustratedBox
+# Frustrated Box
 
-Fully offline (no Internet!) conversational bot. Currently made for entertainment purposes (will serve as a prop on Halloween'26). But in future may be expanded to something actually useful, like a home assistant.
+Fully offline (no Internet!) conversational bot to serve as a Halloween prop.
 
-Uses only LOCAL AI models for reasoning, speech understanding, speech production. Raspberry Pi is the edge node living inside the box and orchestrating the flow. A more powerful computer (e.g. with a GPU) on the same home LAN does the heavy lifting of reasoning and speech recognition/generation.
+Uses only LOCAL AI models for reasoning, speech understanding, speech production. Raspberry Pi is the edge node living inside the box and orchestrating the flow. A more powerful computer with a GPU on the same home LAN does the heavy lifting of reasoning and speech recognition/generation.
 
 We can give it any character by a simple prompt stored in a txt file, but by design for this (2026) Halloween it is going to be a parcel misdelivered by a courier (it was addressed to a villa in the Bahamas, it got to Ireland), now sitting frustrated by the front door: hears people talking, reacts with responses and glowing bulb eyes, and holds a spoken conversation in a frustrated-but-playful character, powered by a local STT → LLM → TTS pipeline. No cloud services, no information exchanged with the Internet.
 
-See the bot in action in this YT video :)
+See the bot in action in this YouTube video:
 
 [![Link to YT video about the talking frustrated box](https://img.youtube.com/vi/7HzCIBPl4T8/maxresdefault.jpg)](https://youtu.be/7HzCIBPl4T8)
 
