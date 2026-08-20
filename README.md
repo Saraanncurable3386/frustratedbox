@@ -8,7 +8,7 @@ We can give it any character by a simple prompt stored in a txt file, but by des
 
 See the bot in action in this YT video :)
 
-[![Link to YT video about the talking frustrated box](https://img.youtube.com/vi/7HzCIBPl4T8/default.jpg)](https://youtu.be/7HzCIBPl4T8)
+[![Link to YT video about the talking frustrated box](https://img.youtube.com/vi/7HzCIBPl4T8/maxresdefault.jpg)](https://youtu.be/7HzCIBPl4T8)
 
 ## Architecture
 
